@@ -2,12 +2,12 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff5f5;
+  background-color: #f0f8ff;
   color: #333;
 }
 
 header {
-  background-color: #ff4d6d;
+  background-color: #0077cc;
   padding: 1.5rem;
   text-align: center;
   color: white;
@@ -34,14 +34,14 @@ h2 {
 
 .drama-list {
   display: flex;
-  gap: 2rem;
   flex-wrap: wrap;
+  gap: 2rem;
   justify-content: center;
 }
 
 .drama-card {
   width: 220px;
-  background: #ffe6e6;
+  background: #e6f2ff;
   border-radius: 12px;
   padding: 1rem;
   text-align: center;
@@ -56,6 +56,8 @@ h2 {
 .drama-card img {
   width: 100%;
   border-radius: 8px;
+  height: 300px;
+  object-fit: cover;
 }
 
 ul {
