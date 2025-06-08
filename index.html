@@ -2,211 +2,162 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>K-Drama Recommendations - Top 20</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f8ff;
-      color: #333;
-    }
-    header {
-      background-color: #0077cc;
-      padding: 1.5rem;
-      text-align: center;
-      color: white;
-    }
-    header h1 {
-      margin: 0;
-    }
-    section {
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-    h2 {
-      color: #005fa3;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .drama-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 2rem;
-    }
-    .drama-card {
-      background: #e6f2ff;
-      border-radius: 12px;
-      padding: 1rem;
-      text-align: center;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease;
-    }
-    .drama-card:hover {
-      transform: scale(1.05);
-    }
-    .drama-card img {
-      width: 100%;
-      border-radius: 8px;
-      height: 270px;
-      object-fit: cover;
-      margin-bottom: 0.8rem;
-    }
-    .drama-title {
-      font-weight: bold;
-      font-size: 1.1rem;
-      margin-bottom: 0.3rem;
-      color: #004a80;
-    }
-    .drama-year {
-      font-size: 0.9rem;
-      color: #0066cc;
-      margin-bottom: 0.5rem;
-    }
-    footer {
-      background-color: #0077cc;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K-Drama Recommendations</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <h1>Top 20 K-Drama Recommendations</h1>
+    <p>Curated list of must-watch Korean dramas with posters and release years!</p>
   </header>
 
-  <section>
-    <h2>Must-Watch K-Dramas with Release Year</h2>
-    <div class="drama-list">
-      <div class="drama-card">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fneomuhae.com%2Fhappy-happy%2F2020%2F07%2Freview-crash-landing-on-you%2F&psig=AOvVaw1ygcRMyFFRzv9iWUKNpnMg&ust=1749461274247000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjRzqHB4Y0DFQAAAAAdAAAAABAE" alt="Crash Landing on You" />
-        <div class="drama-title">Crash Landing on You</div>
-        <div class="drama-year">2019</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Vincenzo_2021.jpg" alt="Vincenzo" />
-        <div class="drama-title">Vincenzo</div>
-        <div class="drama-year">2021</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Extraordinary_Attorney_Woo.jpg" alt="Extraordinary Attorney Woo" />
-        <div class="drama-title">Extraordinary Attorney Woo</div>
-        <div class="drama-year">2022</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Goblin_2016_TV_series.jpg" alt="Goblin" />
-        <div class="drama-title">Goblin</div>
-        <div class="drama-year">2016</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/7/79/Itaewon_Class.jpg" alt="Itaewon Class" />
-        <div class="drama-title">Itaewon Class</div>
-        <div class="drama-year">2020</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Business_Proposal_TV_series.jpg" alt="Business Proposal" />
-        <div class="drama-title">Business Proposal</div>
-        <div class="drama-year">2022</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/4/49/My_Name_%282021_TV_series%29_poster.jpg" alt="My Name" />
-        <div class="drama-title">My Name</div>
-        <div class="drama-year">2021</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Reply_1988_Poster.jpg" alt="Reply 1988" />
-        <div class="drama-title">Reply 1988</div>
-        <div class="drama-year">2015</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/Descendants_of_the_Sun_-_poster.jpg" alt="Descendants of the Sun" />
-        <div class="drama-title">Descendants of the Sun</div>
-        <div class="drama-year">2016</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/b/bf/Heirs-poster.jpg" alt="The Heirs" />
-        <div class="drama-title">The Heirs</div>
-        <div class="drama-year">2013</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/37/Strong_Woman_Do_Bong-soon_poster.jpg" alt="Strong Woman Do Bong-soon" />
-        <div class="drama-title">Strong Woman Do Bong-soon</div>
-        <div class="drama-year">2017</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/Hotel_Del_Luna_poster.jpg" alt="Hotel Del Luna" />
-        <div class="drama-title">Hotel Del Luna</div>
-        <div class="drama-year">2019</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Weightlifting_Fairy_Kim_Bok-joo.jpg" alt="Weightlifting Fairy Kim Bok-joo" />
-        <div class="drama-title">Weightlifting Fairy Kim Bok-joo</div>
-        <div class="drama-year">2016</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Moon_Lovers_Scarlet_Heart_Ryeo-poster.jpg" alt="Moon Lovers: Scarlet Heart Ryeo" />
-        <div class="drama-title">Moon Lovers: Scarlet Heart Ryeo</div>
-        <div class="drama-year">2016</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Signal_%28South_Korean_TV_series%29.jpg" alt="Signal" />
-        <div class="drama-title">Signal</div>
-        <div class="drama-year">2016</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Chicago_Typewriter_-_poster.jpg" alt="Chicago Typewriter" />
-        <div class="drama-title">Chicago Typewriter</div>
-        <div class="drama-year">2017</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Legend_of_the_Blue_Sea_Poster.jpg" alt="Legend of the Blue Sea" />
-        <div class="drama-title">Legend of the Blue Sea</div>
-        <div class="drama-year">2016</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Start-Up_2020_TV_series_poster.jpg" alt="Start-Up" />
-        <div class="drama-title">Start-Up</div>
-        <div class="drama-year">2020</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Itaewon_Class_poster.jpg" alt="Itaewon Class" />
-        <div class="drama-title">Itaewon Class</div>
-        <div class="drama-year">2020</div>
-      </div>
-
-      <div class="drama-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/91/Stranger_Season_2_poster.jpg" alt="Stranger Season 2" />
-        <div class="drama-title">Stranger Season 2</div>
-        <div class="drama-year">2020</div>
-      </div>
+  <main class="grid-container">
+    <!-- Repeat this card block for each drama -->
+    
+    <!-- 1 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/59/Crash_Landing_on_You_main_poster.jpg" alt="Crash Landing on You">
+      <h2>Crash Landing on You</h2>
+      <p>2019</p>
     </div>
-  </section>
+
+    <!-- 2 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Extraordinary_Attorney_Woo_poster.jpeg" alt="Extraordinary Attorney Woo">
+      <h2>Extraordinary Attorney Woo</h2>
+      <p>2022</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Start-Up_%28TV_series%29.jpg" alt="Start-Up">
+      <h2>Start-Up</h2>
+      <p>2020</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Vincenzo_%28TV_series%29.jpg" alt="Vincenzo">
+      <h2>Vincenzo</h2>
+      <p>2021</p>
+    </div>
+
+    <!-- 5 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6d/Squid_Game.jpg" alt="Squid Game">
+      <h2>Squid Game</h2>
+      <p>2021</p>
+    </div>
+
+    <!-- 6 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Descendants_of_the_Sun_%28poster%29.jpg" alt="Descendants of the Sun">
+      <h2>Descendants of the Sun</h2>
+      <p>2016</p>
+    </div>
+
+    <!-- 7 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Itaewon_Class.jpg" alt="Itaewon Class">
+      <h2>Itaewon Class</h2>
+      <p>2020</p>
+    </div>
+
+    <!-- 8 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Hotel_Del_Luna.jpg" alt="Hotel Del Luna">
+      <h2>Hotel Del Luna</h2>
+      <p>2019</p>
+    </div>
+
+    <!-- 9 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c5/Guardian_The_Lonely_and_Great_God.jpg" alt="Goblin (Guardian)">
+      <h2>Goblin</h2>
+      <p>2016</p>
+    </div>
+
+    <!-- 10 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Alchemy_of_Souls.jpg" alt="Alchemy of Souls">
+      <h2>Alchemy of Souls</h2>
+      <p>2022</p>
+    </div>
+
+    <!-- 11 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/My_Love_from_the_Star_poster.jpg" alt="My Love from the Star">
+      <h2>My Love from the Star</h2>
+      <p>2013</p>
+    </div>
+
+    <!-- 12 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Business_Proposal.jpg" alt="Business Proposal">
+      <h2>Business Proposal</h2>
+      <p>2022</p>
+    </div>
+
+    <!-- 13 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/df/While_You_Were_Sleeping_%282017%29.jpg" alt="While You Were Sleeping">
+      <h2>While You Were Sleeping</h2>
+      <p>2017</p>
+    </div>
+
+    <!-- 14 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Penthouse_Korean_poster.jpg" alt="The Penthouse">
+      <h2>The Penthouse</h2>
+      <p>2020</p>
+    </div>
+
+    <!-- 15 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Heirs_%28Korean_Drama%29-poster.jpg" alt="The Heirs">
+      <h2>The Heirs</h2>
+      <p>2013</p>
+    </div>
+
+    <!-- 16 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/75/True_Beauty_TV_series.jpg" alt="True Beauty">
+      <h2>True Beauty</h2>
+      <p>2020</p>
+    </div>
+
+    <!-- 17 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/19/Flower_of_Evil_poster.jpg" alt="Flower of Evil">
+      <h2>Flower of Evil</h2>
+      <p>2020</p>
+    </div>
+
+    <!-- 18 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Hospital_Playlist.jpg" alt="Hospital Playlist">
+      <h2>Hospital Playlist</h2>
+      <p>2020</p>
+    </div>
+
+    <!-- 19 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Reborn_Rich.jpg" alt="Reborn Rich">
+      <h2>Reborn Rich</h2>
+      <p>2022</p>
+    </div>
+
+    <!-- 20 -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Hometown_Cha-Cha-Cha.jpg" alt="Hometown Cha-Cha-Cha">
+      <h2>Hometown Cha-Cha-Cha</h2>
+      <p>2021</p>
+    </div>
+  </main>
 
   <footer>
-    <p>© 2025 K-Drama Recommendations by Suhani</p>
+    <p>Created by Suhani 💙</p>
   </footer>
 </body>
 </html>
